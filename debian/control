@@ -1,0 +1,12 @@
+Source: ros-galactic-urdf-tutorial
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ros-workspace
+Homepage: http://ros.org/wiki/urdf_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-galactic-urdf-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-joint-state-publisher, ros-galactic-joint-state-publisher-gui, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-xacro, ros-galactic-ros-workspace
+Description: This package contains a number of URDF tutorials.
