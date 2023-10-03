@@ -1,3 +1,26 @@
+## urdf_tutorial (iron) - 1.1.0-1
+
+The packages in the `urdf_tutorial` repository were released into the `iron` distro by running `/usr/bin/bloom-release -r iron urdf_tutorial` on `Tue, 03 Oct 2023 14:27:31 -0000`
+
+The `urdf_tutorial` package was released.
+
+Version of package(s) in repository `urdf_tutorial`:
+
+- upstream repository: https://github.com/ros/urdf_tutorial
+- release repository: https://github.com/ros2-gbp/urdf_tutorial-release.git
+- rosdistro version: `1.0.0-4`
+- old version: `1.0.0-4`
+- new version: `1.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## urdf_tutorial (humble) - 1.1.0-1
 
 The packages in the `urdf_tutorial` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble urdf_tutorial` on `Tue, 03 Oct 2023 14:15:41 -0000`
