@@ -1,0 +1,12 @@
+Source: ros-kilted-urdf-tutorial
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/urdf_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-kilted-urdf-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-urdf-launch, ros-kilted-ros-workspace
+Description: This package contains a number of URDF tutorials.
